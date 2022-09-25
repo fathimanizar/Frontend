@@ -29,7 +29,7 @@ export class EditbookComponent implements OnInit {
   {
     this.bookService.editBook(this.bookItem);
     localStorage.removeItem('editBookId');
-    alert("success");
+    alert("The book details updated successfully");
     this.router.navigate(['books']);
   }
 

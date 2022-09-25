@@ -22,7 +22,7 @@ export class AddbookComponent implements OnInit {
   {    
     this.bookService.newBook(this.bookItem);
     console.log("Called");    
-    alert("Success");
+    alert("New Book Added Successfully");
     this.router.navigate(['books']);
   }
 

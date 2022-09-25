@@ -23,9 +23,11 @@ export class SignupComponent implements OnInit {
   ngOnInit(): void {
   }
   signup()
-  {    
+  {    console.log("user",this.user);
     let result:any=this.userService.newUser(this.user);
+    console.log("result",result);
     result.subscribe(
+
       (res:any)=>{
         alert(res.status);
         this.router.navigate(['login']);

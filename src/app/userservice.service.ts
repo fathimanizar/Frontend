@@ -12,8 +12,7 @@ export class UserserviceService {
   
   newUser(item:any)
   {   
-    return this.http.post(`${server_address}/signup`,{"userdata":item});
-  
+     return this.http.post(`${server_address}/signup`,{"userdata":item});
   }
   
 }
