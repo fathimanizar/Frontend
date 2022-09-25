@@ -1,0 +1,31 @@
+h1{
+    /* color:rgb(39, 35, 3) ; */
+    color:white;
+    font-size: 100px;
+    text-shadow: 0 0 3px rgb(66, 3, 3); 
+}
+img
+{
+    height:600px;
+    /* width: 50px; */
+    border-radius: 16px; 
+}
+.cover{
+    /* position: absolute;
+   top: 0;  */
+   /* height: 95%; */
+   width: 90%;
+   margin-left: 70px;
+   border-radius: 12px; 
+   margin-top: 40px;
+   /* z-index: 98;
+   transition: all 1s ease; */
+   /* transform-style: preserve-3d;  */
+
+   /* content: ''; */
+   /* position: absolute; */
+  
+   /* opacity: 0.7;
+   z-index: 12;
+   border-radius: 12px; */
+ }
